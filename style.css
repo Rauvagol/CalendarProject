@@ -24,6 +24,7 @@ html{
     height: 52rem;
     background-color: #444444;
     box-shadow: 0 .5rem 3rem rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
 }
 
 .month{
