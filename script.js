@@ -21,7 +21,7 @@ const renderCalendar = () =>{
     }
     
     for(let i = 1; i <= getLastDate(date.getMonth()+1); i++){ //gets the days of the month
-        if(i === date.getDate() && date.getMonth() === new Date().getMonth()){//highlights the current day
+        if(i === date.getDate() && date.getMonth() === new Date().getMonth() && date.getFullYear() === new Date().getFullYear()){//highlights the current day
             days += `<div class = "this-date">${i}</div>`
         } else{
         days += `<div>${i}</div>`;
